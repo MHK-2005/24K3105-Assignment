@@ -26,3 +26,24 @@ for i=0 to 2
 End-For
 Sum=100-Total
 Print Sum
+
+Q3.
+Set opreator As String
+Set num1 As INT
+Set Num2 As INT
+Set Answer As INT
+
+Print "Enter your operator from + or -:"
+INPUT operator
+Print "Enter Num1:"
+Input Num1
+Print "Enter Num2:"
+Input Num2
+IF operator = "+"
+Answer=Num1+Num2
+Print Answer
+Else if operator=="-"
+Answer=Num1-Num2
+Print Answer
+End if-else
+
